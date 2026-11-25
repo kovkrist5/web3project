@@ -8,13 +8,23 @@
 </head>
 <body>
     <header>
-        <a href="main.html">home_icon</a><!--align this left within header-->>
-        <h1>user editings</h1>
+        <a href="main.html">home_icon</a>
+        <h1>user profile</h1>
     </header>
     <main>
-        <p>edit user</p> <!--not the point-->
-        <p><a href="editproduct.html">my products</a></p>
-        <p><a href="history.html">transaction history</a></p>
+        <div id="profile">
+            <p>user_icon</p>
+            <p>username</p>
+            <p><a href="edituser.html">edit user</a>only visible when own profile</p><!--not the point-->
+            <p><a href="history.html">transaction history</a>only visible when own profile</p> 
+        </div>
+        <div id="timeline">
+            <p><a href="editproduct.html">edit product</a>only visible when own profile</p> 
+            <p>list users own prodcts here</p>
+            
+        </div>
+        
+        
     </main>
 </body>
 </html>
